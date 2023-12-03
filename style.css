@@ -77,7 +77,7 @@ body {
   
   .area {
     fill: lightblue;
-    opacity: 0;
+    opacity: 1;
     cursor: pointer;
   }
   
