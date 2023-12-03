@@ -1,0 +1,99 @@
+body {
+    background-image: url('background2.jpg'); /* Replace 'background2.png' with the actual path to your background image */
+    background-size: cover; /* Adjust the background size as needed */
+    background-repeat: no-repeat;
+    margin: 0; /* Remove default body margin */
+}
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+/* Add this to your existing CSS file */
+.hide {
+    display: none;
+}
+
+/* Style for the information divs */
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+/* Add this to your existing CSS file */
+.hide {
+    display: none;
+}
+
+/* Style for the information divs */
+.info {
+    position: absolute;
+    left: 50%;
+    top: calc(-50% - 20px); /* Adjust this value based on the height of your rectangle */
+    transform: translate(-50%, -125%);
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+    max-width: 300px;
+    text-align: justify;
+}
+
+/* Triangle or "tail" for the text bubble */
+.info::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #fff transparent transparent transparent;
+}
+
+
+
+
+
+/* Add more specific styling for the information divs if needed */
+
+  
+
+  
+  svg {
+    position: absolute;
+  }
+  
+  .tooltip {
+    position: absolute;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: none;
+    z-index: 999;
+  }
+  
+  .area {
+    fill: lightblue;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .area:hover {
+    fill: lightcoral;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #333; /* Dark color for the thumb */
+    border-radius: 6px; /* Rounded corners */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #666; /* Dark color for the track */
+  }
